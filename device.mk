@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
 
 # NFC packages
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     nfc_nci.pn54x.default
 
 # NFC config
@@ -35,6 +36,12 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
+=======
+    nfc.default \
+    libnfc \
+    libnfc_jni \
+    Nfc
+>>>>>>> b113b45b16b121e86a63ff9d58098f4abfc005ea
 
 # Sensors
 PRODUCT_COPY_FILES += \
