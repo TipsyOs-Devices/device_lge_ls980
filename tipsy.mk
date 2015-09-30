@@ -3,17 +3,17 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit some common Validus stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/tipsy/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/ls980/ls980.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ls980
-PRODUCT_NAME := validus_ls980
+PRODUCT_NAME := tipsy_ls980
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-LS980
 PRODUCT_MANUFACTURER := lge
